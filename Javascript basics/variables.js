@@ -1,9 +1,16 @@
 
 // print a values in the console
 
-// console.log("Hello, World!") 
+console.log("Hello, World!") 
+
+
+
+
 
 //console.log("Hello, World!").  // single line comment
+
+
+
 
 /*.    multi line comment
 
@@ -14,9 +21,20 @@ console.log("text")
 
 */
 
+
+
+// Variable Naming Conventions
+
+// rules to declare a variable
+
+
 // pascal case  - AravindPurushothaman
 
 // camel case   - aravindPurushothaman
+
+
+
+
 
 
 // 1). Variables in JavaScript
@@ -27,203 +45,52 @@ console.log("text")
 
 // 3) const - constant variable (value cannot be changed)
 
-// var age = 25;
 
-// console.log(age);
+//i) var
 
-// let name = "John Doe"
+var age = 25;
 
-// console.log(name);
+console.log(age);
 
-// const automation = "cypress"
 
-// console.log(automation);
 
+var automationTool = "playwright"   // declared a variable
 
+var automationTool = "cypress"  // re-declared a variable
 
-// 2). Data Types in JavaScript
+console.log(automationTool);  // output : cypress because the variable is re-declared
 
-// 1) Primitive Data Types
 
-/* 
 
-i) string.   ''   ""
-ii) number
-iii) boolean
-iv) null
-v) undefined
+// ii) let
 
-// 2) reference Data Types
 
-i) array
-ii) object
-iii) function
+let programming = "javascript" // declared a variable
 
-*/
+console.log(programming);  // output : javascript
 
-// 1) string data type
 
-// const automation = 'playwright'  // string data type
+programming = "typescript"  // re-assigning a variable
 
-// const age = 5 // number data type
+console.log(programming);  // output : typescript
 
-// const popular = true  // true or false boolean data type
 
-// const firstname = "aravind"
+//let programming = "java"  // re-declaring a variable - not allowed
 
-// const middlename = null  // null data type
+//console.log(programming); // error - Identifier 'programming' has already been declared
 
-// const lastname = "purushothaman"
 
-//let fullname;  // undefined data type
 
+const environment = "QA"  // declared a constant variable
 
- //console.log(fullname);
+//environment = "PROD"  // re-assigning a constant variable - not allowed
 
+//const environment = "dev"  // re-declaring a constant variable - not allowed
 
+console.log(environment);
 
 
 
-// 2) reference data types
 
-// i) array data type
 
-//const automationTools = ["cypress", "playwright", "puppeteer", "selenium", ["webdriverio", "testcafe"]];  
 
-//                         // 0           1            2            3
-
-// console.log(automationTools[3]);
-
-
-
-// ii) object data type
-
-// const automationTool = {
-
-//     name: "playwright",
-//     age: 5,
-//     otherTools: ["cypress", "puppeteer", "selenium"],
-//     opensource: true
-
-// }
-
-// // dot notation
-
-// console.log(automationTool.name)
-
-
-// // bracket notation
-
-// console.log(automationTool['name'])
-
-
-// iii) function data type
-
-
-// function printName() {
-//     console.log("Automation Testing")
-// }
-
-// printName()
-
-// printName()
-
-// printName()
-
-
-
-// Operators in JavaScript
-
-// 1) Arithmetic Operators
-
-/*
-
-i) +  addition
-ii) -  subtraction
-iii) *  multiplication
-iv) /  division
-v) %  modulus
-vi) ++ increment
-vii) -- decrement
-*/
- //let a = 12;
-// let b = 5;
-
-// console.log(a + b)  // 15.  addition
-
-// console.log(a - b) // subraction
-
-// console.log( a * b) // multiplication
-
-// console.log(a / b) // division
-
-// console.log( a % b) // modulus
-
-// ++a   // 1 + 12. increament by 1
-
-// --b // 5 - 1. decrement by 1
-
- //console.log(a++)  // 13
-
-// console.log(b)  // 4
-
-//++a
-
-
-//console.log(a++) // pre increment
-
-// console.log(++a) // post increment
-
-
-// comparison operators
-
-/*
-
-equal  ==
-
-strict equal  ===
-
-not equal !=
-
-strict not equal !==
-
-greater than  >
-
-less than  <
-
-greater than or equal to  >=
-
-less than or equal to  <=
-
-*/
-
-
-// console.log(10 == "10") // both the values are equal
-
-// console.log(10 === "10") // both the values and data types are equal
-
-// console.log(10 != "5") // values are not equal
-
-// console.log(10 === 10) // same value and same data type. -- 
-
-// console.log(10 === "10") // same value but data type is different
-
-// console.log( 10 !== "10") // value same but data type is different
-
-// console.log( 10 !== 10) // value same and data type is same
-
-// greater than 
-
-// console.log(10 > 5) // true
-
-// console.log(5 > 10) // false
-
-// console.log(10 < 5) // false
-
-// console.log(5 < 10) // true
-
-let a = 10;
-
-console.log(a++) // post increment
-
-console.log(a)
