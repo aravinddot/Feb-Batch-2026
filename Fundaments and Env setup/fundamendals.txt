@@ -1,0 +1,41 @@
+
+
+1) What is Automation?
+
+i) write scripts
+ii) assert
+
+2) manual vs Automation
+
+i) human intervention.    -   script executes the test cases
+ii) slow - fast
+iii) human mistakes  - consistent & reliable
+iv) not suitable for regression - best for regression
+v) no programming - required programming
+
+
+3) what is javascript?
+
+javascript is a programming language 
+
+History
+
+1995 - netscape
+
+chrome - v8
+firefox - spider mokey
+IE - chakra
+
+2009 - node js 
+
+1) react
+2) Angular
+3) vue 
+
+
+1) Automation
+2) frontend
+3) backend
+4) mobile app
+5) game development
+6) AI tools 
