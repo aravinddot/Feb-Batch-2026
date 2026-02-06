@@ -42,19 +42,19 @@ if((10 === 10 && 12 > 5)  && (10 === "10" || 15 > 10))    {
 }
 
 
-// const automation = "playwright"
+const automation = "playwright"
 
-// if(automation === "playwright") {
+if(automation === "playwright") {
 
-//     console.log("playwright executed")
+    console.log("playwright executed")
 
-// } else if (automation === "selenium") {
+} else if (automation === "selenium") {
 
-//     console.log("selenium executed")
+    console.log("selenium executed")
 
-// } else {
-//     console.log("no match found")
-// }
+} else {
+    console.log("no match found")
+}
 
 
 
