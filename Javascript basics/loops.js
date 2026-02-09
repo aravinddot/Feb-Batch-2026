@@ -52,7 +52,7 @@
 
 // //let index
 // for(let index in automations) {
-
+// // const automations = 1
 
 //     if(automations[index] === "cypress") {
 //         console.log(automations[index])
@@ -74,12 +74,14 @@
 // for of loop
 
 
-// const automations = ["playwright", "selenium", "cypress", "puppeteer"]
+//  const automations = ["playwright", "selenium", "cypress", "puppeteer"]
 
 
 // for(let value of automations) {
 //     console.log(value)
 // }
+
+
 
 
 
@@ -110,6 +112,36 @@
 // automations[4]  ---> testcafe
 // automations[5]  ---> webdriverio
 
+
+
+
+
+// while loop
+//const automations = ["playwright", "selenium", "cypress", "puppeteer", "testcafe", "webdriverio"]
+
+// let i = 0
+
+// while(i < automations.length) {
+
+//     console.log(automations[i])
+
+//     i++
+
+// }
+
+
+// do while loop
+
+
+// let i = 5;
+
+// do{
+
+//     console.log(i);
+
+//     i++;
+
+// } while(i < 5)
 
 
 
