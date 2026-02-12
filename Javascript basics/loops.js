@@ -130,7 +130,7 @@
 // }
 
 
-// do while loop
+// //do while loop
 
 
 // let i = 5;
