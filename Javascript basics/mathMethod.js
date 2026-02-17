@@ -47,6 +47,38 @@
 
 
 
+// const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+
+// let randomValue = ''
+
+// for(let i = 0; i < 10; i++) {
+//     randomValue += chars[Math.floor(Math.random() * chars.length)]
+// }
+
+// console.log(randomValue);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

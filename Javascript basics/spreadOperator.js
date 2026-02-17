@@ -14,12 +14,13 @@
 // const result = [...arr, ...arr1]
 
 // console.log(result);
-// spread operator
+// //spread operator
 // const arr = [1, 2, 3];
 
 // console.log(...arr);
 
 // // rest parameter
+
 // function validation(...value) {
 //     console.log(value);
     

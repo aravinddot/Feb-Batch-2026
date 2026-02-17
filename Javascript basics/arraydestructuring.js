@@ -7,7 +7,7 @@
 // const value1 = value[0]
 
 
-// const [firstValue, , thrid, fourth, fifth, sixth = "night watch"] = value
+// const [firstValue, , thrid, fourth, fifth, sixth = "night watch", [one, two]] = value
 
 // console.log(firstValue);
 // //console.log(secondValue);

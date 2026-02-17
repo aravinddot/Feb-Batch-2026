@@ -26,12 +26,33 @@
 //     return a * b
 // }
 
-// // multiply(10, 20)
-
 
 // const result = print(10, 20, multiply)
 
 // console.log(result);
+
+
+
+// function add() {
+//     return 10 + 20
+// }
+
+// function sub() {
+//     return 30 - 20
+// }
+
+
+// function print(value) {    
+//     console.log(value);
+// }
+
+// // print("playwright")
+
+// print(add())
+
+
+
+
 
 
 
